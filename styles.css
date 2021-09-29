@@ -1,0 +1,64 @@
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+  margin-bottom: 1rem;
+  color: #0d0087;
+}
+p{
+  margin: 10px;
+}
+
+body{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(https://wallpaperaccess.com/full/923586.jpg);
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+ font-weight: 400;
+ -webkit-font-smoothing: antialiased;
+}
+.card{
+  width: 500px;
+  height: 400px;
+  border: 2rem;
+  background-color: #ffff;
+  padding: 2rem 3rem 2rem 3rem;
+  text-align: center;
+}
+
+.container{
+  margin: 10vw 30vw 0vw 30vw;
+}
+
+input{
+  height: 50px ;
+  width: 300px;
+  display: block;
+  padding: 0 4rem 0 4rem;
+  font-size: 20px;
+  margin: 2rem 2rem 1rem 2rem;
+  border: 3px solid #0d0087;
+  border-radius: 1rem;
+
+}
+
+button{
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 3px solid #0d0087;
+  color: #0d0087;
+  border-radius: 1rem;
+
+}
